@@ -1,23 +1,15 @@
-# react-grid
+# @deep-impact-ag/react-grid
 
-[![npm](https://img.shields.io/npm/v/react-grid.svg)](https://www.npmjs.com/package/react-grid)
-[![npm](https://img.shields.io/npm/dm/react-grid.svg)](https://www.npmjs.com/package/react-grid)
-[![Build Status](https://travis-ci.org/swiftcarrot/react-grid.svg?branch=master)](https://travis-ci.org/swiftcarrot/react-grid)
-[![codecov](https://codecov.io/gh/swiftcarrot/react-grid/branch/master/graph/badge.svg)](https://codecov.io/gh/swiftcarrot/react-grid)
-[![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
+Forked from: https://github.com/swiftcarrot/react-grid
 
 React grid component
 
 ### Installation
 
 ```sh
-npm install react-grid --save
-yarn add react-grid
+npm install @deep-impact-ag/react-grid --save
+yarn add @deep-impact-ag/react-grid
 ```
-
-### Demo
-
-[https://swiftcarrot.dev/react-grid](https://swiftcarrot.dev/react-grid)
 
 ### Basic Usage
 

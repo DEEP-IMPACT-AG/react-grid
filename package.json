@@ -1,6 +1,6 @@
 {
   "name": "@deep-impact-ag/react-grid",
-  "version": "5.0.0-test.0",
+  "version": "5.0.0",
   "description": "react grid component",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
@@ -13,13 +13,6 @@
     "test": "jest --coverage",
     "prepublishOnly": "npm test && npm run build"
   },
-  "author": "Wang Zuo <wangzuo@swiftcarrot.com> (https://swiftcarrot.com)",
-  "maintainers": [
-    {
-      "name": "adjusted",
-      "email": "wangzuo@swiftcarrot.com"
-    }
-  ],
   "license": "MIT",
   "dependencies": {
     "@babel/runtime": "^7.11.2",
@@ -54,9 +47,5 @@
     "react-component",
     "grid",
     "emotion"
-  ],
-  "bugs": {
-    "url": "https://github.com/swiftcarrot/react-grid/issues"
-  },
-  "homepage": "https://swiftcarrot.dev/react-grid"
+  ]
 }
