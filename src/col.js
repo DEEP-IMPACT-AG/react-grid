@@ -1,5 +1,5 @@
 /** @jsx jsx */
-import { jsx } from '@emotion/core';
+import { jsx } from '@emotion/react';
 import { mediaBreakpointUp } from './breakpoints';
 import styles from './styles';
 

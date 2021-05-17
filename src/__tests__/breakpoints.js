@@ -2,7 +2,7 @@
  * @jest-environment node
  */
 /** @jsx jsx */
-import { jsx, css } from '@emotion/core';
+import { jsx, css } from '@emotion/react';
 import { renderToString } from 'react-dom/server';
 import {
   breakpointNext,
@@ -77,7 +77,7 @@ test('render', () => {
       />
     )
   ).toMatchInlineSnapshot(
-    `"<style data-emotion-css=\\"4rlk8p\\">.css-4rlk8p{font-size:12px;}@media(min-width:576px){.css-4rlk8p{font-size:12px;}}</style><div class=\\"css-4rlk8p\\"></div>"`
+    `"<style data-emotion=\\"css orwt0j\\">{font-size:12px;}@media(min-width: 576px){.css-orwt0j{font-size:12px;}}</style><div class=\\"css-orwt0j\\"></div>"`
   );
 
   expect(
@@ -94,6 +94,6 @@ test('render', () => {
       />
     )
   ).toMatchInlineSnapshot(
-    `"<style data-emotion-css=\\"4rlk8p\\">.css-4rlk8p{font-size:12px;}@media(min-width:576px){.css-4rlk8p{font-size:12px;}}</style><div class=\\"css-4rlk8p\\"></div>"`
+    `"<style data-emotion=\\"css 4rlk8p\\">{font-size:12px;}@media(min-width: 576px){.css-4rlk8p{font-size:12px;}}</style><div class=\\"css-4rlk8p\\"></div>"`
   );
 });

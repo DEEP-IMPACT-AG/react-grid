@@ -1,6 +1,6 @@
 {
-  "name": "react-grid",
-  "version": "4.0.4",
+  "name": "@deep-impact-ag/react-grid",
+  "version": "5.0.0-test.1",
   "description": "react grid component",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
@@ -23,7 +23,7 @@
   "license": "MIT",
   "dependencies": {
     "@babel/runtime": "^7.11.2",
-    "@emotion/core": "^10.0.28"
+    "@emotion/react": "11"
   },
   "devDependencies": {
     "@babel/core": "^7.11.1",

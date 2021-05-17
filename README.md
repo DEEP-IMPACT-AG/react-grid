@@ -123,7 +123,7 @@ react-grid implments breakpoint functions similar to bootstrap grid:
 
 ```javascript
 /** @jsx jsx */
-import { jsx, css } from '@emotion/core';
+import { jsx, css } from '@emotion/react';
 import { mediaBreakpointUp } from 'react-grid';
 
 const App = () => (

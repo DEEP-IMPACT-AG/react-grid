@@ -2,6 +2,10 @@
 
 ## [Unreleased]
 
+## [5.0.0]
+
+- update to emotion11
+
 ## [4.0.3]
 
 - fix deprecated rollup plugins
